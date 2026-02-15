@@ -1,0 +1,243 @@
+[
+  {
+    "id": "guiding",
+    "category": "사이드 스토리",
+    "title": "가이딩 어헤드",
+    "subtitle": "Guide Ahead",
+    "factions": ["Laterano"],
+    "releaseDate": "2022-03-15",
+    "thumbnail": "thumb/guiding.jpg",
+    "paths": [
+      {
+        "id": "guidingA",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "guiding", "title": "가이딩 어헤드", "desc": "라테라노 팩션 현재 에피소드" },
+          { "id": "hortus", "title": "공상의 정원", "desc": "다음 에피소드" }
+        ]
+      },
+      {
+        "id": "guidingB",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "guiding", "title": "가이딩 어헤드", "desc": "현재 에피소드" },
+          { "id": "opreceforcer", "title": "외출 계획", "desc": "인포서 오퍼레이터 레코드" },
+          { "id": "guidingafter", "title": "체첼리아의 서우인 여정", "desc": "카즈델로 간 에젤과 체첼리아", "link": "https://www.arknights.kr/comic?name=%EC%B2%B4%EC%B2%BC%EB%A6%AC%EC%95%84%EC%9D%98+%EC%84%9C%EC%9A%B0%EC%9D%B8+%EC%97%AC%EC%A0%95&chapter=1" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hortus",
+    "category": "사이드 스토리",
+    "title": "공상의 정원",
+    "subtitle": "Hortus de Escapismo",
+    "factions": ["Laterano"],
+    "releaseDate": "2023-06-08",
+    "thumbnail": "thumb/hortus.jpg",
+    "paths": [
+      {
+        "id": "hortusA",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "guiding", "title": "가이딩 어헤드", "desc": "이전 에피소드" },
+          { "id": "hortus", "title": "공상의 정원", "desc": "라테라노 팩션 현재 에피소드" },
+          { "id": "masses", "title": "중생의 여정", "desc": "다음 에피소드" }
+        ]
+      },
+      {
+        "id": "hortusB",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "hortus", "title": "공상의 정원", "desc": "현재 에피소드" },
+          { "id": "hortusafter", "title": "주교의 일기", "desc": "테라 히스토리쿠스 - 공상의 정원 후일담", "link": "https://cafe.naver.com/f-e/cafes/29703924/articles/1185714?menuid=3&referrerAllArticles=false&page=20" }
+        ]
+      },
+      {
+        "id": "hortusC",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "cappricio", "title": "서문의 모음곡:카프리치오", "desc": "비르투오사와 이그제큐터의 과거", "link": "https://cafe.naver.com/f-e/cafes/29703924/articles/1185714?menuid=3&referrerAllArticles=false&page=20" },
+          { "id": "hortus", "title": "공상의 정원", "desc": "현재 에피소드" },
+          { "id": "cappricio", "title": "라테라노 기관 파일 관리 플랫폼-인적 파일", "desc": "테라 히스토리쿠스-공상의 정원 후일담 2", "link": "https://cafe.naver.com/f-e/cafes/29703924/articles/1101267" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "masses",
+    "category": "사이드 스토리",
+    "title": "중생의 여정",
+    "subtitle": "Masses´ Travels",
+    "factions": ["Laterano", "Rhodes Island"],
+    "releaseDate": "2025-05-01",
+    "thumbnail": "thumb/masses.jpg",
+    "paths": [
+      {
+        "id": "massesA",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "guiding", "title": "가이딩 어헤드", "desc": "라테라노 팩션 1편" },
+          { "id": "hortus", "title": "공상의 정원", "desc": "라테라노 팩션 2편" },
+          { "id": "masses", "title": "중생의 여정", "desc": "라테라노 팩션 현재 에피소드" }
+        ]
+      },
+      {
+        "id": "massesB",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "episode15", "title": "메인 스토리 15지역", "desc": "프리스티스의 목적" },
+          { "id": "masses", "title": "중생의 여정", "desc": "현재 에피소드" }
+        ]
+      },
+      {
+        "id": "massesC",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "lingering", "title": "링거링 에코스", "desc": "비르투오사 등장" },
+          { "id": "zwilling", "title": "츠빌링슈튀르메의 가을", "desc": "황역이란? 재이란?" },
+          { "id": "oprecvirtuosa", "title": "하늘과 흘러가는 구름", "desc": "비르투오사 오퍼레이터 레코드, 비르투오사의 성도 임명" },
+          { "id": "masses", "title": "중생의 여정", "desc": "현재 에피소드" }
+        ]
+      },
+      {
+        "id": "massesD",
+        "layout": "list",
+        "nodes": [
+          { "id": "massesafter", "title": "〈성도행기〉 기록", "desc": "테라 히스토리쿠스 - 중생의 여정 후일담", "link": "https://cafe.naver.com/f-e/cafes/29703924/articles/1224151" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "episode14",
+    "category": "메인 스토리",
+    "title": "Episode 14 자비의 등대",
+    "subtitle": "Episode 14: Absolved Will Be the Seekers",
+    "factions": ["Rhodes Island"],
+    "releaseDate": "2024-05-01",
+    "thumbnail": "thumb/episode14.jpg",
+    "paths": [
+      {
+        "id": "episode14A",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "episode13", "title": "Episode 13 흉조의 소용돌이", "desc": "이전 에피소드" },
+          { "id": "episode14", "title": "Episode 14 자비의 등대", "desc": "메인 스토리 현재 에피소드" },
+          { "id": "episode15", "title": "Episode 15 해리성 결합", "desc": "다음 에피소드" }
+        ]
+      },
+      {
+        "id": "episode14B",
+        "layout": "list",
+        "nodes": [
+          { "id": "episode14after", "title": "두 개의 기록", "desc": "테라 히스토리쿠스 14지역 후일담", "link": "https://cafe.naver.com/f-e/cafes/29703924/articles/1176948" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "episode15",
+    "category": "메인 스토리",
+    "title": "Episode 15 해리성 결합",
+    "subtitle": "Episode 15: Dissociative Recombination",
+    "factions": ["Rhodes Island"],
+    "releaseDate": "2025-04-07",
+    "thumbnail": "thumb/episode15.jpg",
+    "paths": [
+      {
+        "id": "episode15A",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "episode14", "title": "Episode 14 자비의 등대", "desc": "" },
+          { "id": "episode15", "title": "Episode 15 해리성 결합", "desc": "메인 스토리 현재 에피소드" }
+        ]
+      },
+      {
+        "id": "episode15B",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "episode15", "title": "Episode 15 해리성 결합", "desc": "현재 에피소드" },
+          { "id": "masses", "title": "중생의 여정", "desc": "15지역 직후 시점" }
+        ]
+      },
+      {
+        "id": "episode15C",
+        "layout": "list",
+        "nodes": [
+          { "id": "lynchpin", "title": "STAND BY HER SIDE", "desc": "린치핀 ARG", "link": "https://arknights.kr/lynchpin" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lingering",
+    "category": "사이드 스토리",
+    "title": "링거링 에코스",
+    "subtitle": "Lingering Echoes",
+    "factions": ["Leithanien"],
+    "releaseDate": "2022-06-09",
+    "thumbnail": "https://via.placeholder.com/300x150?text=Episode+15",
+    "paths": [
+      {
+        "id": "lingeringA",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "capriccio", "title": "서문의 모음곡: 카프리치오", "desc": "비르투오사와 크라이데의 과거", "link": "https://arknights.kr/comic?name=%EC%B2%B4%EC%B2%BC%EB%A6%AC%EC%95%84%EC%9D%98+%EC%84%9C%EC%9A%B0%EC%9D%B8+%EC%97%AC%EC%A0%95&chapter=1" },
+          { "id": "lingering", "title": "링거링 에코스", "desc": "라이타니엔 팩션 현재 에피소드" },
+          { "id": "oprecevenholz", "title": "외로운 등불", "desc": "에벤홀츠 오퍼레이터 레코드" },
+          { "id": "lingeringafter", "title": "면담 감찰 기록&함선 이탈 신청서", "desc": "테라 히스토리쿠스 링거링 에코스 후일담", "link": "https://arknights.kr/comic?name=%EC%B2%B4%EC%B2%BC%EB%A6%AC%EC%95%84%EC%9D%98+%EC%84%9C%EC%9A%B0%EC%9D%B8+%EC%97%AC%EC%A0%95&chapter=1" },
+          { "id": "zwilling", "title": "츠빌링슈튀르메의 가을", "desc": "다음 에피소드" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zwilling",
+    "category": "사이드 스토리",
+    "title": "츠빌링슈튀르메의 가을",
+    "subtitle": "Zwillingstürme im Herbst",
+    "factions": ["Leithanien", "Laterano", "Kazimierz"],
+    "releaseDate": "2023-11-01",
+    "thumbnail": "thumb/zwilling.jpg",
+    "paths": [
+      {
+        "id": "zwillingA",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "lingering", "title": "링거링 에코스", "desc": "라이타니엔 팩션 이전 에피소드" },
+          { "id": "oprecevenholz", "title": "외로운 등불", "desc": "에벤홀츠 오퍼레이터 레코드" },
+          { "id": "lingeringafter", "title": "면담 감찰 기록&함선 이탈 신청서", "desc": "테라 히스토리쿠스 링거링 에코스 후일담", "link": "https://arknights.kr/comic?name=%EC%B2%B4%EC%B2%BC%EB%A6%AC%EC%95%84%EC%9D%98+%EC%84%9C%EC%9A%B0%EC%9D%B8+%EC%97%AC%EC%A0%95&chapter=1" },
+          { "id": "zwilling", "title": "츠빌링슈튀르메의 가을", "desc": "현재 에피소드" }
+        ]
+      },
+      {
+        "id": "zwillingB",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "cappricio", "title": "서문의 모음곡:카프리치오", "desc": "비르투오사와 라이타니엔의 인연", "link": "https://cafe.naver.com/f-e/cafes/29703924/articles/1185714?menuid=3&referrerAllArticles=false&page=20" },
+          { "id": "hortus", "title": "공상의 정원", "desc": " 페데리코의 성도 임명 / 왜 비르투오사가 라이타니엔으로 돌아왔는가" },
+          { "id": "zwilling", "title": "츠빌링슈튀르메의 가을", "desc": "현재 에피소드" }
+        ]
+      },
+      {
+        "id": "zwillingC",
+        "layout": "sequence",
+        "nodes": [
+          { "id": "nierlight", "title": "니어 라이트", "desc": "비비아나의 카시미어에서의 행적" },
+          { "id": "zwilling", "title": "츠빌링슈튀르메의 가을", "desc": "현재 에피소드" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vigilo",
+    "category": "미니 스토리",
+    "title": "비질로",
+    "subtitle": "VIGILO",
+    "factions": ["Rhodes Island", "Babel"],
+    "releaseDate": "2021-07-13",
+    "thumbnail": "thumb/vigilo.jpg",
+    "paths": []
+  }
+]
