@@ -49,17 +49,17 @@
         "id": "hortusB",
         "layout": "sequence",
         "nodes": [
-          { "id": "hortus", "title": "공상의 정원", "desc": "현재 에피소드" },
-          { "id": "hortusafter", "title": "주교의 일기", "desc": "테라 히스토리쿠스 - 공상의 정원 후일담", "link": "https://cafe.naver.com/f-e/cafes/29703924/articles/1185714?menuid=3&referrerAllArticles=false&page=20" }
+          { "id": "cappricio", "title": "서문의 모음곡:카프리치오", "desc": "비르투오사와 이그제큐터의 과거", "link": "https://cafe.naver.com/f-e/cafes/29703924/articles/1185714?menuid=3&referrerAllArticles=false&page=20" },
+          { "id": "oprecexecutor2", "title": "적", "desc": "이그제큐터 오퍼레이터 레코드, 비르투오사와 이그제큐터의 과거 2" },
+          { "id": "hortus", "title": "공상의 정원", "desc": "현재 에피소드" }
         ]
       },
       {
-        "id": "hortusC",
-        "layout": "sequence",
+        "id": "hortusV",
+        "layout": "link",
         "nodes": [
-          { "id": "cappricio", "title": "서문의 모음곡:카프리치오", "desc": "비르투오사와 이그제큐터의 과거", "link": "https://cafe.naver.com/f-e/cafes/29703924/articles/1185714?menuid=3&referrerAllArticles=false&page=20" },
-          { "id": "hortus", "title": "공상의 정원", "desc": "현재 에피소드" },
-          { "id": "cappricio", "title": "라테라노 기관 파일 관리 플랫폼-인적 파일", "desc": "테라 히스토리쿠스-공상의 정원 후일담 2", "link": "https://cafe.naver.com/f-e/cafes/29703924/articles/1101267" }
+          { "id": "hortusafter", "title": "주교의 일기", "desc": "테라 히스토리쿠스 - 공상의 정원 후일담", "link": "https://cafe.naver.com/f-e/cafes/29703924/articles/1185714?menuid=3&referrerAllArticles=false&page=20" },
+                    { "id": "cappricio", "title": "라테라노 기관 파일 관리 플랫폼-인적 파일", "desc": "테라 히스토리쿠스-공상의 정원 후일담 2", "link": "https://cafe.naver.com/f-e/cafes/29703924/articles/1101267" }
         ]
       }
     ]
