@@ -47,7 +47,7 @@
             const [isFilterExpanded, setIsFilterExpanded] = useState(window.innerWidth > 768);
 
             useEffect(() => {
-                fetch('./data.json')
+                fetch('data.json')
                     .then(res => {
                         if (!res.ok) throw new Error(`HTTP ERROR: ${res.status}`);
                         return res.text();
@@ -280,3 +280,4 @@
     </script>
 </body>
 </html>
+
